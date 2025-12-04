@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <div class="logo">
+                    <p>pizzashop</p>
+                </div>
+                <nav class="nav">
+                    <ul class="listss">
+                    <li class="links"><a href="#" class="news">Home</a></li>
+                    <li class="links"><a href="#" class="news">Menu</a></li>
+                    <li class="links"><a href="#" class="news">Events</a></li>
+                    <li class="links"><a href="#" class="news">About us</a></li>
+                    </ul>
+
+            </div>
+            </ul>
+            </nav>
+            <div class="btns">
+                <button class="btn_login">Log in</button>
+                <button class="btn_icon"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero_text">
+
+                <div class="hero_text_head">
+                    <h1 class="hero_text_h1">The Fastest <br> Pizza⚡Delivery</h1>
+                </div>
+                <!-- <div class="red">
+        <img src="./Vector 2.png" alt="">
+    </div> -->
+                <div class="hero_text_p">
+                    <p class="box">We will deliver juicy pizza for your family in 30 <br> minutes if the courier is late
+                        - pizza is free!</p>
+                </div>
+                <div class="hero_text_img">
+                    <p>Cooking process:</p>
+                    <img class="img_hero" src="./shourav-sheikh-a66sGfOnnqQ-unsplash 1 (1).png" width="300px"
+                        height="240px" alt="">
+                </div>
+                <div class="hero_text_btn">
+                    <button class="hero_btn_first">To order</button>
+                    <button class="hero_btn_second">Pizza-Menu</button>
+                </div>
+            </div>
+            <div class="hero_img">
+                <img class="hero_img_pizza" src="./pizza 1 (1).png" alt="">
+                <img class="left_hero" src="./shourav-sheikh-xLfqx4Psf94-unsplash 1 (2).png" width="400px"
+                    height="600px" alt="">
+                <img class="hero_img_frie" src="./fries 1.png" alt="">
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="hero_tem">
+            <h1>Menu</h1>
+        </div>
+        <div class="filter-buttons">
+            <button class="active">Show All</button>
+            <button>Meat</button>
+            <button>Vegetarian</button>
+            <button>Sea products</button>
+            <button>Mushroom</button>
+            <button class="man" width="100px" height="100px"></button>
+        </div>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (8).png" alt="">
+                <h3>Italian</h3>
+                <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                <div class="sizes">
+                    <span>22</span>
+                    <span class="active">28</span>
+                    <span>33</span>
+                </div>
+
+                <button class="ing">+ Ingridients</button>
+
+                <div class="bottom">
+                    <p class="price">8,35<span>$</span></p>
+                    <div class="count">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <button class="order">Order Now</button>
+            </div>
+
+            <div class="card">
+                <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (10).png" alt="">
+                <h3>Venecia</h3>
+                <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                <div class="sizes">
+                    <span>22</span>
+                    <span class="active">28</span>
+                    <span>33</span>
+                </div>
+
+                <button class="ing">+ Ingridients</button>
+
+                <div class="bottom">
+                    <p class="price">7,35<span>$</span></p>
+                    <div class="count">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <button class="order">Order Now</button>
+            </div>
+
+            <div class="card">
+                <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (10).png" alt="">
+                <h3>Meat</h3>
+                <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                <div class="sizes">
+                    <span>22</span>
+                    <span class="active">28</span>
+                    <span>33</span>
+                </div>
+
+                <button class="ing">+ Ingridients</button>
+
+                <div class="bottom">
+                    <p class="price">9,35<span>$</span></p>
+                    <div class="count">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <button class="order">Order Now</button>
+            </div>
+
+            <div class="card">
+                <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (10).png" alt="">
+                <h3>Cheese</h3>
+                <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                <div class="sizes">
+                    <span>22</span>
+                    <span class="active">28</span>
+                    <span>33</span>
+                </div>
+
+                <button class="ing">+ Ingridients</button>
+
+                <div class="bottom">
+                    <p class="price">8,35<span>$</span></p>
+                    <div class="count">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+
+                <button class="order">Order Now</button>
+            </div>
+
+        </div>
+
+        <div class="neet">
+            <img src="./Group 54.png" alt="">
+        </div>
+        <div>
+            <div class="cards">
+
+                <div class="card">
+                    <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (13).png" alt="">
+                    <h3>Argentina</h3>
+                    <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+
+                    <button class="ing">+ Ingridients</button>
+
+                    <div class="bottom">
+                        <p class="price">8,35<span>$</span></p>
+                        <div class="count">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+
+                    <button class="order">Order Now</button>
+                </div>
+
+                <div class="card">
+                    <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (14).png" alt="">
+                    <h3>Gribnaya</h3>
+                    <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+
+                    <button class="ing">+ Ingridients</button>
+
+                    <div class="bottom">
+                        <p class="price">7,35<span>$</span></p>
+                        <div class="count">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+
+                    <button class="order">Order Now</button>
+                </div>
+
+                <div class="card">
+                    <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (15).png" alt="">
+                    <h3>Tomato</h3>
+                    <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+
+                    <button class="ing">+ Ingridients</button>
+
+                    <div class="bottom">
+                        <p class="price">9,35<span>$</span></p>
+                        <div class="count">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+
+                    <button class="order">Order Now</button>
+                </div>
+
+                <div class="card">
+                    <img class="pizza" src="./1617249653_40-p-pitstsa-na-belom-fone-krasivo-51 1 (16).png" alt="">
+                    <h3>Italian x2</h3>
+                    <p class="desc">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+
+                    <button class="ing">+ Ingridients</button>
+
+                    <div class="bottom">
+                        <p class="price">8,35<span>$</span></p>
+                        <div class="count">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+
+                    <button class="order">Order Now</button>
+                </div>
+
+            </div>
+            <div>
+                <div class="events">
+
+                    <div class="event item1">
+                        <h3>HOW WE COOKING</h3>
+                        <button>More</button>
+                    </div>
+
+                    <div class="event item2">
+                        <h3>OUR BLOG</h3>
+                        <button>More</button>
+                    </div>
+
+                    <div class="event item3">
+                        <h3>TWO PIZZA FOR 1 PRICE</h3>
+                        <button>More</button>
+                    </div>
+
+                    <div class="event item4">
+                        <h3>KITCHEN TOUR</h3>
+                        <button>More</button>
+                    </div>
+
+                    <div class="event item5">
+                        <h3>FREE COFFEE FOR 3 PIZZA</h3>
+                        <button>More</button>
+                    </div>
+
+                    <div class="event item6">
+                        <h3>OUR INSTAGRAM</h3>
+                        <button>More</button>
+                    </div>
+
+                    <div class="event item7">
+                        <h3>WHERE ARE YOU CHOOSE US?</h3>
+                        <button>More</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div class="about">
+
+                <div class="left">
+                    <h1 class="bg-title">About</h1>
+                    <h2 class="main-title">About us</h2>
+
+                    <p class="text">
+                        In just a couple of years, we have opened 6 outlets in different cities:
+                        Kazan, Chelyabinsk, Ufa, Samara, Izhevsk, and in the future we plan to
+                        develop the network in other major cities of Russia.
+                    </p>
+
+                    <div class="mini-pizzas">
+                        <img src="./002-removebg-preview 1.png">
+                        <img
+                            src="./png-clipart-pizza-margherita-italian-cuisine-barbecue-seafood-pizza-pizza-parlors-barbecue-food-removebg-preview 1.png">
+                        <img
+                            src="./png-clipart-pizza-margherita-italian-cuisine-barbecue-seafood-pizza-pizza-parlors-barbecue-food-removebg-preview 2.png">
+                        <img
+                            src="./png-clipart-pizza-ham-italian-cuisine-calzone-prosciutto-pizza-pizza-ham-removebg-preview 1 (1).png">
+                    </div>
+
+                    <p class="text">
+                        The kitchen of each point is at least: 400–500 sq. m. meters, hundreds
+                        of employees, smoothly performing work in order to receive / prepare /
+                        form / deliver customer orders on time.
+                    </p>
+                </div>
+
+                <div class="right">
+                    <div class="pizza-frame">
+                        <img src="./top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden 1.png"
+                            class="big-pizza">
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <footer class="footer">
+
+                    <div class="footer-left">
+                        <h2 class="logo">pizzashop</h2>
+                        <p class="phone">+7 (937) 333–55–33</p>
+                    </div>
+
+                    <div class="footer-center">
+
+                        <div class="col">
+                            <h3>Home</h3>
+                            <a href="#">To Order</a>
+                            <a href="#">About us</a>
+                            <a href="#">Events</a>
+                            <a href="#">Menu</a>
+                        </div>
+
+                        <div class="col">
+                            <h3>Events</h3>
+                            <a href="#">3 Pizza 1 Free Coffee</a>
+                            <a href="#">2 Pizza for 1 Price</a>
+                            <a href="#">Kitchen Tour</a>
+                        </div>
+
+                        <div class="col">
+                            <h3>Menu</h3>
+                            <a href="#">Show All</a>
+                            <a href="#">Seaproducts</a>
+                            <a href="#">Vegan</a>
+                            <a href="#">Meat</a>
+                        </div>
+
+
+                        <div class="col">
+                            <h3>About Us</h3>
+                            <a href="#">Our History</a>
+                            <a href="#">Why We?</a>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-right">
+                        <div class="socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                                                  <div class="social-icons">
+          
+                        </div>
+                    </div>
+                     <div>
+                    
+
+                     </div>
+                </footer>
+
+            </div>
+              
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
+</body>
+
+
+main.css
+ :root{
+    --colors:  #FF5D29;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1512px;
+    height: 100vh;
+    background: black;
+    color: white;
+
+}
+header{
+    max-width: 1512px;
+    height: 50px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 0px 125px 0px 125px;
+     
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 80px;
+
+}
+.btns{
+    display: flex;
+    gap: 26px;
+}
+
+.btn_login{
+    background-color: var(--colors);
+    width: 163px;
+    height: 40px;
+    border-radius: 30px;
+}
+.hero{
+    max-width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_text{
+    padding-left: 130px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.hero_text_h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+
+.hero_text_btn{
+    position: relative;
+}
+.hero_btn_first{
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+      z-index: -1;
+       background-color: #FF5D29;
+       border: #FF5D29;
+       color: white;
+}
+
+.hero_btn_second{
+    width: 150px;
+    height: 42px;
+    border-radius: 15px 30px 30px 15px;
+    position: absolute;
+    left: 120px;
+    text-align: center;
+    border: 2px solid #FF5D29;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FF5D29;
+}
+
+.hero_img{
+    padding-right: 130px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero_img_pizza{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -90px;
+    left: 290px;
+}
+.hero_img_frie{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 470px;
+    left: -90px;
+}
+.hero_tem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_skin{
+    display: flex;
+    gap: 300px;
+}
+.filter-buttons {
+  display: flex;
+  gap: 35px;                
+  justify-content: center;
+  padding: 40px 0;
+  background: black;
+  border-radius: 50px;
+}
+
+.filter-buttons button {
+  padding: 15px 45px;
+  font-size: 18px;
+  border: black;
+  border-radius: 40px;      
+  color: black;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.filter-buttons button.active {
+  background: linear-gradient(to right, #ffcd79, #ff7c2e);
+  color: white;
+}
+
+.filter-buttons button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+body {
+    background: #0e0603;
+    font-family: "Poppins", sans-serif;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.card {
+    width: 260px;
+    background: radial-gradient(circle at top, #331708, #1b0b05);
+    padding: 25px;
+    border-radius: 30px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.pizza {
+    width: 160px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card h3 {
+    margin-top: 90px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.desc {
+    opacity: .7;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.sizes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sizes span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #6d6d6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.sizes .active {
+    background: #ff8a00;
+    border-color: #ff8a00;
+    color: #fff;
+}
+
+.ing {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid #ff8a00;
+    background: transparent;
+    color: #ff8a00;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.price {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.price span {
+    font-size: 16px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.count button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background: #ff8a00;
+    color: #fff;
+    font-size: 18px;
+}
+
+.order {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #ff8a00, #ff5520);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.neet{
+    margin-left: 150px;
+}
+
+
+
+
+body {
+    background: #0e0603;
+    font-family: "Poppins", sans-serif;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.card {
+    width: 260px;
+    background: radial-gradient(circle at top, #331708, #1b0b05);
+    padding: 25px;
+    border-radius: 30px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.pizza {
+    width: 160px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card h3 {
+    margin-top: 90px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.desc {
+    opacity: .7;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.sizes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sizes span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #6d6d6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.sizes .active {
+    background: #ff8a00;
+    border-color: #ff8a00;
+    color: #fff;
+}
+
+.ing {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid #ff8a00;
+    background: transparent;
+    color: #ff8a00;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.price {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.price span {
+    font-size: 16px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.count button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background: #ff8a00;
+    color: #fff;
+    font-size: 18px;
+}
+
+.order {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #ff8a00, #ff5520);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+.events {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 210px;
+    gap: 20px;
+    padding: 40px;
+}
+
+.event {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.event h3 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.event button {
+    position: relative;
+    background: linear-gradient(45deg, #ff8a00, #ff5520);
+    border: none;
+    padding: 10px 35px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.event::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 0;
+}
+
+.event * {
+    z-index: 2;
+}
+
+.item1 { background: url("./Rectangle\ 10\ \(3\).png") center/cover; }
+.item2 { background: url("./Rectangle\ 11\ \(1\).png") center/cover; }
+.item3 { background: url("./alex-haney-CAhjZmVk5H4-unsplash\ 1.png") center/cover; grid-column: span 2; }
+.item4 { background: url("./Rectangle\ 9\ \(1\).png") center/cover; }
+.item5 { background: url("./Rectangle\ 11\ \(1\).png") center/cover; }
+.item6 { background: url("./Rectangle\ 11\ \(2\).png") center/cover; }
+.item7 { background: url("./Rectangle\ 12.png ") center/cover; }
+
+
+
+
+
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.left {
+    width: 50%;
+    position: relative;
+}
+
+.bg-title {
+    font-size: 120px;
+    font-weight: 400;
+    opacity: 0.15;
+    color: #ff8a00;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    pointer-events: none;
+}
+
+.main-title {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.mini-pizzas {
+    display: flex;
+    gap: -20px;
+    margin-bottom: 30px;
+}
+
+.mini-pizzas img {
+    width: 130px;
+    filter: drop-shadow(0 2px 12px rgba(0,0,0,0.5));
+}
+
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.pizza-frame {
+    width: 500px;
+    height: 500px;
+    border-radius: 35px;
+    overflow: hidden;
+    position: relative;
+    padding: 18px;
+    background: radial-gradient(circle at center, #6a1e05, #2a0d06);
+    box-shadow: 0 0 40px 10px rgba(255, 100, 40, 0.25);
+}
+
+.big-pizza {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.img_hero{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 120px;
+    color: #c7c7c7;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, #1a0c05, #2b0f07, #1a0c05);
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ffae00, #ff4d00);
+    -webkit-text-fill-color: transparent;
+}
+
+.phone {
+    color: #ff8a00;
+    margin-top: 230px;
+    font-size: 20px;
+}
+
+.footer-center {
+    display: flex;
+    gap: 80px;
+}
+
+.col h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.col a {
+    display: block;
+    color: #888;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.col a:hover {
+    color: #ff8a00;
+}
+
+.footer-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.socials i {
+    font-size: 24px;
+    color: #ff5520;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.socials i:hover {
+    transform: scale(1.2);
+}
+.left_hero{
+    width: 400px;
+    height: 600px;
+}
+/* .red{
+    /* width: 88px;
+    height: 40px;
+    display: flex;
+    margin-top: -180px;
+    margin-left: 465px;
+} */ 
+
+.logo{
+    display: flex;
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FF5D29 86.72%);
+    gap: 20px;
+    background-clip: text;
+    color: transparent;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 70px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+.listss{
+    display: flex;
+    margin-left: 260px;
+}
+
+
+
+
+header {
+    animation: headerDown 1s ease forwards;
+    opacity: 0;
+}
+@keyframes headerDown {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.hero_text {
+    animation: textLeft 1.1s ease forwards;
+    opacity: 0;
+}
+@keyframes textLeft {
+    from {
+        transform: translateX(-60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.hero_img {
+    animation: imgRight 1.1s ease forwards;
+    opacity: 0;
+}
+@keyframes imgRight {
+    from {
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.card {
+    animation: cardUp 0.8s ease forwards;
+    opacity: 0;
+}
+@keyframes cardUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card:nth-child(1){ animation-delay: 0.1s; }
+.card:nth-child(2){ animation-delay: 0.2s; }
+.card:nth-child(3){ animation-delay: 0.3s; }
+.card:nth-child(4){ animation-delay: 0.4s; }
+.event {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 95, 41, 0.5);
+}
+.footer {
+    animation: footerUp 1s ease forwards;
+    opacity: 0;
+}
+@keyframes footerUp {
+    from {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.hero_img {
+    position: relative;
+}
+
+.hero_img_pizza {
+    animation: pizzaUp 1s ease forwards;
+    opacity: 0;
+}
+@keyframes pizzaUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.left_hero {
+    animation: leftHeroRight 1.2s ease forwards;
+    opacity: 0;
+}
+@keyframes leftHeroRight {
+    from {
+        transform: translateX(60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.hero_img_frie {
+    animation: friesLeft 1.1s ease forwards;
+    opacity: 0;
+}
+@keyframes friesLeft {
+    from {
+        transform: translateX(-60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.hero_tem h1 {
+    animation: menuDown 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes menuDown {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.filter-buttons button {
+    animation: filterFade 0.6s ease forwards;
+    opacity: 0;
+}
+
+.filter-buttons button:nth-child(1) { animation-delay: 0.1s; }
+.filter-buttons button:nth-child(2) { animation-delay: 0.2s; }
+.filter-buttons button:nth-child(3) { animation-delay: 0.3s; }
+.filter-buttons button:nth-child(4) { animation-delay: 0.4s; }
+.filter-buttons button:nth-child(5) { animation-delay: 0.5s; }
+.filter-buttons button:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes filterFade {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.card {
+    animation: cardUp 0.7s ease forwards;
+    opacity: 0;
+}
+
+.cards .card:nth-child(1) { animation-delay: 0.1s; }
+.cards .card:nth-child(2) { animation-delay: 0.2s; }
+.cards .card:nth-child(3) { animation-delay: 0.3s; }
+.cards .card:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes cardUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.event {
+    animation: eventFade 0.8s ease forwards;
+    opacity: 0;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+@keyframes eventFade {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.event:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 25px rgba(255, 95, 41, 0.5);
+}
+.about .left {
+    animation: aboutLeft 1s ease forwards;
+    opacity: 0;
+}
+@keyframes aboutLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.about .right {
+    animation: aboutRight 1s ease forwards;
+    opacity: 0;
+}
+@keyframes aboutRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.footer {
+    animation: footerUp 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes footerUp {
+    from {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.social-icons{
+    display: flex;
+    gap: 40px;
+}
+
+.social-icons img{
+    width: 45px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.2);
+}
+
